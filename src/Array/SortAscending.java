@@ -22,12 +22,12 @@ public class SortAscending {
 
         for (int i = 0; i < array.length; i++) {
             int tem = 0;
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[i] > array[j]) {
-                    tem = array[i];
+            for (int j = i + 1; j < array.length; j++) {  //i=0, i=1          j=1,2 => 2
+                if (array[i] > array[j]) {//6>4
+                    tem = array[i];  //temp = 6   4
 
-                    array[i] = array[j];
-                    array[j] = tem;
+                    array[i] = array[j];  //arr[0]=4   arr[0] = 2
+                    array[j] = tem;     // arr[1]=6    arr[5]= 4
 
                 }
             }

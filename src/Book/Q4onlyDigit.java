@@ -25,7 +25,8 @@ public class Q4onlyDigit {
     //method2
 
     public static boolean isMatch(String str) {
-            return !str.chars().anyMatch(n -> !Character.isDigit(n));
+
+        return !str.chars().anyMatch(n -> !Character.isDigit(n));
     }
     //method 3
     //String.match(regx)=> check whether or not this string matches the given regular expression

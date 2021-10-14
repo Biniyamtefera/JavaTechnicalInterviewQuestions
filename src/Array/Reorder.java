@@ -29,8 +29,8 @@ public class Reorder {
         {
             // if teh current element is non-zero, put teh element at teh
             // next free position in the array
-            if (i != 0) {
-                A[k++] = i;
+            if (i != 0) {   //6  8
+                A[k++] = i; //A[0]=6  A[1]=8
             }
         }
 

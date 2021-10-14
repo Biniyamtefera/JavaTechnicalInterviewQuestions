@@ -1,4 +1,4 @@
-package youtubeVedioIQ;
+package youtubeVedioIQ.NavinIQ;
 
 public class missingNumber {
     public static void main(String[] args) {

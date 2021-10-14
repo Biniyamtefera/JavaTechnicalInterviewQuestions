@@ -1,4 +1,4 @@
-package youtubeVedioIQ;
+package youtubeVedioIQ.NavinIQ;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package youtubeVedioIQ;
+package youtubeVedioIQ.NavinIQ;
 
 public class PrintOneToHundredWitthOutLoop {
     public static void main(String[] args) {
