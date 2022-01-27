@@ -38,8 +38,8 @@ public class Profit {
              price[i..n-1] using at most
              one trans. */
 
-
-            int max_price = price[n - 1];
+                                    // [] price = 8,
+            int max_price = price[n - 1]; //
 
             for (int j = n - 2; j >= 0; j--) {
                 // max_price has maximum of price[i..n-1]

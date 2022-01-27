@@ -4,7 +4,7 @@ import java.util.*;
 
 public class BalancedParentheses {
     /**
-     * 1. balanced the peharetheses ( first way use the loop, second way use the Collection)
+     * 1. balanced the paretheses ( first way use the loop, second way use the Collection)
      * --------------------------------------------------
      */
     public static void main(String[] args) {

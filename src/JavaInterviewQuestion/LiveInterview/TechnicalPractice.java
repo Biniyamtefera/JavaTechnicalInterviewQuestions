@@ -1,4 +1,4 @@
-package JavaInterviewQuestion.TechnicalQuestion1;
+package JavaInterviewQuestion.LiveInterview;
 
 import java.util.*;
 

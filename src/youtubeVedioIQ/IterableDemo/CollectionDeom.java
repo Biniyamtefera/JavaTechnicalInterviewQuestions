@@ -14,11 +14,13 @@ public class CollectionDeom {
         fruitCollection.add("berry");
         fruitCollection.add("Quenna");
         fruitCollection.add("Avocado");
+
         System.out.println(fruitCollection);
         System.out.println("fruitCollection.remove(\"orange\") = " + fruitCollection.remove("Orange"));
         System.out.println(fruitCollection);
+        System.out.println("New print out");
         fruitCollection.forEach(System.out::println);
-        fruitCollection.forEach(System.out::println);
+       // fruitCollection.forEach(System.out::println);
 //        fruitCollection.stream().toArray();
 //        System.out.println(fruitCollection);
        // fruitCollection.toArray();

@@ -12,11 +12,14 @@ public class ArrayLIstClassExample {
         fruits.add("Carrot");
         fruits.add("Potato");
         System.out.println(fruits);
+
+
         List<String> fruit2= new ArrayList<>();
         fruit2.add("Biniyam");
         fruit2.add("Mekdi");
         fruit2.add("Rediet");
         fruit2.add("Mimi");
+
         fruit2.addAll(fruits);
         ArrayList<String> fruit3 = new ArrayList<>(fruit2);
         System.out.println(fruit2);

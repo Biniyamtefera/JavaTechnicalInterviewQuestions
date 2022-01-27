@@ -22,6 +22,7 @@ public class CopyListExamples {
         List<String> addAll = new ArrayList<>();
         addAll.addAll(fruits);
         System.out.println(addAll);
+
         //3Using Collections.copy()
         //The size of the the source and the ditination
         List<String> copy3 = new ArrayList<>(fruits.size());
@@ -31,6 +32,7 @@ public class CopyListExamples {
         copy3.add("d");
         copy3.add("e");
         Collections.copy(copy3, fruits);
+        System.out.println("3Using Collections.copy()");
         System.out.println(copy3);
 
         //4. Using java 8

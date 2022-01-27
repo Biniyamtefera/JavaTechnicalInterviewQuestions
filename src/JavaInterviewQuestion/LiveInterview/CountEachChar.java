@@ -1,4 +1,4 @@
-package JavaInterviewQuestion.TechnicalQuestion1;
+package JavaInterviewQuestion.LiveInterview;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +23,7 @@ public class CountEachChar  {
                     count++;
                 }
             }
-            System.out.print(string.charAt(i) + "=" + count + " ");
+            System.out.println(string.charAt(i) + "=" + count + " ");
             count = 0;
             string = string.replaceAll("" + string.charAt(i), "");
 
